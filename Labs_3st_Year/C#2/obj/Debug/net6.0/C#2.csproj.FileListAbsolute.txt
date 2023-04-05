@@ -1,0 +1,15 @@
+C:\Users\sib_coder\Documents\lb3semestr\C#2\bin\Debug\net6.0\C#2.exe
+C:\Users\sib_coder\Documents\lb3semestr\C#2\bin\Debug\net6.0\C#2.deps.json
+C:\Users\sib_coder\Documents\lb3semestr\C#2\bin\Debug\net6.0\C#2.runtimeconfig.json
+C:\Users\sib_coder\Documents\lb3semestr\C#2\bin\Debug\net6.0\C#2.dll
+C:\Users\sib_coder\Documents\lb3semestr\C#2\bin\Debug\net6.0\C#2.pdb
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.csproj.AssemblyReference.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.AssemblyInfoInputs.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.AssemblyInfo.cs
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.csproj.CoreCompileInputs.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.dll
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\refint\C#2.dll
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.pdb
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\C#2.genruntimeconfig.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#2\obj\Debug\net6.0\ref\C#2.dll

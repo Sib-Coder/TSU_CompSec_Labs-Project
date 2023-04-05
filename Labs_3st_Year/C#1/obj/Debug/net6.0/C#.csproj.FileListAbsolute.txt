@@ -1,0 +1,15 @@
+C:\Users\sib_coder\Documents\lb3semestr\C#\bin\Debug\net6.0\C#.exe
+C:\Users\sib_coder\Documents\lb3semestr\C#\bin\Debug\net6.0\C#.deps.json
+C:\Users\sib_coder\Documents\lb3semestr\C#\bin\Debug\net6.0\C#.runtimeconfig.json
+C:\Users\sib_coder\Documents\lb3semestr\C#\bin\Debug\net6.0\C#.dll
+C:\Users\sib_coder\Documents\lb3semestr\C#\bin\Debug\net6.0\C#.pdb
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.csproj.AssemblyReference.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.AssemblyInfoInputs.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.AssemblyInfo.cs
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.csproj.CoreCompileInputs.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.dll
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\refint\C#.dll
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.pdb
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\C#.genruntimeconfig.cache
+C:\Users\sib_coder\Documents\lb3semestr\C#\obj\Debug\net6.0\ref\C#.dll

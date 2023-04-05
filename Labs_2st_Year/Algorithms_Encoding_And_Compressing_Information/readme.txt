@@ -1,0 +1,1 @@
+Huffman compression algorithm and Algebraic compression

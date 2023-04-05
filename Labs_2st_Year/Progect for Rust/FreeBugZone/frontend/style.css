@@ -1,0 +1,42 @@
+h1{
+	font-size: 50px;
+}
+h2{
+
+}
+body {
+	color: 	#008000;
+	font: 12px Tahoma, sans-serif;
+	background-color:  #000000;
+	margin: 0;
+}   
+p{
+	font-size: 20px;
+}
+a{
+	color: 	#008000;
+}
+.hidden{
+	display: none;
+}
+button{
+	background-color: 	#008000;
+	color:  #000000;
+	border-radius: 5px;
+}
+.btn-success{
+	background-color: 	#008000;
+	color:  #000000;
+}
+#fileB{
+	margin-bottom: 5px;
+	font-size:30px ;
+
+}
+#textimg{font-size:20px
+}
+footer{
+	position: absolute;
+	bottom: 10px;
+	left: 80%;
+}
