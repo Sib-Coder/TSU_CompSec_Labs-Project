@@ -1,11 +1,5 @@
 import random
-from sympy import totient, nextprime, randprime
-from decimal import *
 
-
-def error_f(n,t):
-    i = (Decimal(totient(n)) / (4 * Decimal(n))) ** Decimal(t)
-    return i
 
 def TestMillerRabin(n, t):
     if n <= 3:
@@ -32,26 +26,38 @@ def TestMillerRabin(n, t):
                 return False
     return True
 
+#функция Эйлера
+def fi(n):
+    f = n;
+    if n%2 == 0:
+        while n%2 == 0:
+            n = n // 2;
+        f = f // 2;
+    i = 3
+    while i*i <= n:
+        if n%i == 0:
+            while n%i == 0:
+                n = n // i;
+            f = f // i;
+            f = f * (i-1);
+        i = i + 2;
+    if n > 1:
+        f = f // n;
+        f = f * (n-1);
+    return f;
+
+def error_f(n,t):
+    i = (fi(n) / (4 * n)) ** t
+    return i
 
 def test():
-    test_data=[2, 3, 5, 7, 11, 1, 9, 10, 12, 14]
-
-    for _ in range(50):
-        n = randprime(1000000, 9999999999999999999)
-        if random.randint(0, 1) == 1:
-            n *= randprime(1000000, 9999999999999999999)
-        test_data.append(n)
-    
-    test_data.append(26641259752490421121)
-    test_data.append(6553130926752006031481761)
-    
-
-    t = 5
+    test_data=[ 2, 3, 5, 7, 11, 1, 9, 10, 12, 14, 1, 561, 8911, 10585, 15841, 29341, 41041, 59283834566841846300814233552512955601, 9904788899632347103]
+    t = 2
 
     for i in test_data:
-        res = TestMillerRabin(i, t)
+        res = TestMillerRabin(int(i), int(t))
         if res == True:
-            print(f"Число {i} простое. Вероятность ошибки = {error_f(i, t)}.")
+            print(f"Число {i} простое. Вероятность ошибки = {error_f(i,t)}.")
         elif res == False:
             print(f"Число {i} составное.")
         
