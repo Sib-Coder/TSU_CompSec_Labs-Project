@@ -94,7 +94,10 @@ int FullLogik(int sockfd,  sigset_t origSigMask) {
         }
 
         //обработка сигнала
-        if (pselect (maxFd + 1, &fds, NULL, NULL, NULL, &origSigMask) < 0 && errno != EINTR) {
+        if (pselect (maxFd + 1, &fds, NULL, NULL, NULL, &origSigMask) < 0 ) {
+            if (errno == EINTR) {
+                continue;
+            }
             return -1;
         }
 
