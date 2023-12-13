@@ -1,1 +1,1 @@
-cmd_/usr/src/lkm_example/lkm_example.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /usr/src/lkm_example/lkm_example.ko /usr/src/lkm_example/lkm_example.o /usr/src/lkm_example/lkm_example.mod.o;  true
+cmd_/home/sib/src/lkm_example/lkm_example.ko := ld -r -m elf_x86_64 -z noexecstack --build-id=sha1  -T scripts/module.lds -o /home/sib/src/lkm_example/lkm_example.ko /home/sib/src/lkm_example/lkm_example.o /home/sib/src/lkm_example/lkm_example.mod.o;  true

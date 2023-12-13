@@ -1,2 +1,2 @@
-/usr/src/lkm_example/lkm_example.o
+/home/sib/src/lkm_example/lkm_example.o
 
